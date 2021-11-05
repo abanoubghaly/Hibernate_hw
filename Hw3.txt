@@ -1,0 +1,8 @@
+﻿Abanoub Ghaly
+Dr. Chetan Jaiswal
+CS484 - Advanced Java
+Homework 3 writeup
+
+
+The java util package includes the type Date, storing the date as a numeric value in milliseconds since the unix epoch. SimpleDateFormat is a java class that helps us deal with the type date in a more readable way; it allows us to choose the format we would like to use for dates and it takes care of initializing the provided date into a java.util Date object. 
+The language implementation for storing the type date in java is different from that in mysql, and that is why we need @Temporal(TemporalType.Date) to map our Java date object into the format that's compatible with mysql.
